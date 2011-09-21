@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bck_grnd"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="\n\t\tThis is a small screen with resolution in pixels (w*h) as\n"
+    android:textColor="#0000ff"
+   	android:textSize="17px"
+    />
+    
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:id="@+id/size"
+    android:textSize="17px"
+    android:textColor="#0000ff"
+    />
+</LinearLayout>
